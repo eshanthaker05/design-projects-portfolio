@@ -58,3 +58,16 @@ For every assignment I submit, I identify the governing engineering model, state
 
 ## Communicate
 
+
+### Profesional Introduction
+My name is Eshan Thaker and I am currently a 3rd year mechanical engineering student studying at the University of North Carolina at Charlotte. Before I began my college career, I was unsure about which career path I wanted to take, but I knew I wanted to solve complex, interesting problems. Initially, I was drawn to the natural sciences, specifically microbiology. Learning about the intricacies of cells was fascinating, but as I spent more time in college, I felt that the problem-solving aspect of the my career was missing, so I switched majors to mechanical engineering. The hands-on learning approaches that come with engineering fields was exactly what I was looking for in my education. As I continue my journey through college, I plan on earning a concentration in biomedical engineering; a perfect blend between natural science and hard engineering. Looking towards the future, I aim to land a career at a medical firm, designing life-saving devices for patients in need. I am eager to get my hands dirty and am willing to learn from any faucet of knowledge I can find. 
+
+### What does it mean to defend an engineering position and do you currently know how to do it? 
+
+To defend an engineering position means to take the time and effort to gather all the necessary information about said position, analyze all the alternatives, and to chose the best decision with the given information. Currently, I have a very basic grasp on how to do this, but with more practice, I am eager to learn more about what it means to defend an engineering position. 
+
+### Time Spent 
+
+I spent 3-4 hours over the course of a week on this assignment. 
+
+
