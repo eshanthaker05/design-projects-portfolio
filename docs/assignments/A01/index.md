@@ -1,5 +1,5 @@
 
-# A1 – [Topic]
+# A1 – [Create Portfolio]
 
 ## Objective
 
@@ -7,7 +7,7 @@
 ## Analyze
 
 ### Task A: Portfolio Analysis
-Portfolio 1: https://github.com/vedanthv/data-engineering-portfolio
+[Portfolio 1] (https://github.com/vedanthv/data-engineering-portfolio)
 a.	Navigability – The navigability of this portfolio is very efficient because all the projects are listed at the top. Additionally, links to other important websites and competitions are listed below I was able to find anything I wanted in under a minute. 
 b.	Reproducibility – The reproducibility of most of the projects was clear because it provided step-by-step instructions on how to recreate them as well as relevant screenshots and recordings. For a few projects, it was harder to follow the exact design process. Specifically, the Formula 1 Analytics project could have been clearer on how the data was obtained. 
 c.	Evidence of Reasoning – This portfolio’s evidence of reasoning is pretty good, as demonstrated by the Airflow Postgres project, because it not only thoroughly explains the steps needed to recreate the project, but also explains why each step is taken. 
