@@ -6,7 +6,7 @@
 
 ## Analyze
 
-Task A: Portfolio Analysis
+### Task A: Portfolio Analysis
 Portfolio 1: https://github.com/vedanthv/data-engineering-portfolio
 a.	Navigability – The navigability of this portfolio is very efficient because all the projects are listed at the top. Additionally, links to other important websites and competitions are listed below I was able to find anything I wanted in under a minute. 
 b.	Reproducibility – The reproducibility of most of the projects was clear because it provided step-by-step instructions on how to recreate them as well as relevant screenshots and recordings. For a few projects, it was harder to follow the exact design process. Specifically, the Formula 1 Analytics project could have been clearer on how the data was obtained. 
@@ -18,7 +18,7 @@ b.	Reproducibility – The reproducibility of this portfolio is very poor becaus
 c.	Evidence of Reasoning – This portfolio also lacks clear evidence of reasoning for most of the projects because it does not mention why certain decisions were made. This goes for both internship projects and personal projects. 
 d.	Professional Tone – The overall tone of the portfolio is very professional because of its good formatting and organization of important information. 
 
-Task B: Product Analysis (Nail Clipper)
+### Task B: Product Analysis (Nail Clipper)
 a. The primary function of nail clipper is to trim and file the user's nails in a safe, clean manner. 
 b. An nail clipper utilizes potential energy, kinetic energy, and torque to keep the clippers in their neutral position, as well as move them together to sharply slice a nail. The model assumes that the width of the a nail is thin enough to fit between both parts of the clipper, making it easy for an individual to use. 
 c. 
