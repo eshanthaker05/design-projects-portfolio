@@ -6,3 +6,7 @@ My name is Eshan Thaker and I am currently a 3rd year mechanical engineering stu
 ## What does it mean to defend an engineering position and do you currently know how to do it? 
 
 To defend an engineering position means to take the time and effort to gather all the necessary information about said position, analyze all the alternatives, and to chose the best decision with the given information. Currently, I have a very basic grasp on how to do this, but with more practice, I am eager to learn more about what it means to defend an engineering position. 
+
+## Time Spent 
+
+I spent 3-4 hours over the course of a week on this assignment. 
