@@ -48,12 +48,13 @@ d. The first patent for the nail clipper belongs to Valentine Fogerty in 1875. H
 
 ## Decide
 ### Homepage Identity 
-The homepage is the viewer's first impression of a person's professional career. This page should contain relevent information about previous coursework, projects, and profesional experience and should paint a brief, but informative, picture of your overall career so far. My homepage provides viewers with quick links off to the side where they can find information about me as a person, overall information about my portfolio, and a comprehensive list of asignments and their specifics.  
+The homepage is the viewer's first impression of a person's professional career. This page should contain relevent information about previous coursework, projects, and profesional experience and should paint a brief, but informative, picture of your overall career so far. My homepage provides viewers with quick links off to the side where they can find information about me as a person, overall information about my portfolio, and a comprehensive list of assignments and their specifics. My homepage aims to achieve maximum navigability for its viewers so that they can find anything they need within a few clicks.
 
 ### One Intentional Customization
 I deliberatly changed the palette's primary color from green to blue because, statistically, more people prefer blue over green. Choosing a color better suited for the majority of people will subconsiously change the viewer's first impressions of my website for the better. 
 
 ### Your Documentation Standard
+For every assignment I submit, I identify the governing engineering model, state any assumptions, and apply these to the final product. I will list all relevent alternatives, state the criteria I used to judge them, then chose the one with the highest score. I will do this clearly and concisely so that anyone reading my process will have all their questions answered. 
 
 ## Communicate
 
