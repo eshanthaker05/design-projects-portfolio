@@ -34,10 +34,13 @@ a. The primary function of nail clipper is to trim and file the user's nails in 
 b. An nail clipper utilizes potential energy, kinetic energy, and torque to keep the clippers in their neutral position, as well as move them together to sharply slice a nail. The model assumes that the width of the a nail is thin enough to fit between both parts of the clipper, making it easy for an individual to use. 
 
 c. 
+
 <img width="336" height="448" alt="IMG_2918" src="https://github.com/user-attachments/assets/adc33dd0-b614-4eb2-9b04-dbcee9455f7d" />
+
 The image above is the top half of the nail clipper and its length makes it easy to convert a small force at the top into a large force at the bottom due to the moment equation, making it easy to clip tough nails. 
 
 <img width="336" height="448" alt="IMG_2919" src="https://github.com/user-attachments/assets/ebe4ca56-f435-4867-b4a0-1f4508b4b735" />
+
 The image above is the bottom half of the nail clipper and is used as a support for the top half so that the two halfs pin the fingernail with a force strong enough to cut it. 
 
 d. The first patent for the nail clipper belongs to Valentine Fogerty in 1875. He recieved US Patent Number 161112 for his invention. One alternate device that solves the problem of growing nails is the nail filer, patented in 1883 by J. Parker Pray. Another device used to solve this problem is a knife, used since ancient times. In Fogerty's patent on the nail clipper, I noticed that the shape of the two flanges are significantly more curved than modern clippers. I think he made this decision to make the device easier to grip with just your fingers. By putting your fingers in the troughs, you can get a more stable hold on the device. 
