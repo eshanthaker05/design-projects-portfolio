@@ -32,7 +32,12 @@ d. The first patent for the nail clipper belongs to Valentine Fogerty in 1875. H
 
 
 ## Decide
+### Homepage Identity 
 
+### One Intentional Customization
+I deliberatly changed the palette's primary color from green to blue because, statistically, more people prefer blue over green. Choosing a color better suited for the majority of people will subconsiously change the viewer's first impressions of my website for the better. 
+
+### Your Documentation Standard
 
 ## Communicate
 
