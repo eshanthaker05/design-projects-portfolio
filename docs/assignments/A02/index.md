@@ -30,7 +30,7 @@ Next, I drew a free body diagram of the external forces, consisting of the force
 
 Using the external force values, I calculated the internal forces. Using the method of joints, I found the internal forces of each point, starting from Point A and ending on Point C. I drew a free body diagram for each point and assumed each member was in tension at first. If its calculated value was negative, that just meant that the member was in compression, and I changed the free body diagram of the point accordingly. I've listed the internal forces on each member at the end as well as if they're in tension or compression. 
 
-## Cross-Sectional Area
+## Cross-Sectional Area and Weight
 
 <img width="385" height="312" alt="unnamed (4)" src="https://github.com/user-attachments/assets/c2a3b67c-e1b2-4682-b91b-eb4430439bc9" />
 
@@ -41,9 +41,12 @@ Next, I calculated the cross-sectional area of the members of the truss. I liste
 
 To calculate the weight, I first listed the lengths of each member. Then, I multiplied each length by the cross-sectional area, taking into account the safety factor of 3.5, and found the volume in m^3. Lastly, I multiplied the volume by the density of A500 Steel to find the weights of each member. Adding these values up gave me the total weight of the truss in kg. 
 
+## Pin Structure
 
-## Decide
-_Which geometry did you select, and why? This is your first open design choice in the course — defend it._
 
-## Communicate
 
+## Lessons Learned
+
+-  I did not realize how much planning goes into the design process. For this project, the majority of my time was spent planning and calculating the truss instead of CAD modeling.
+-  One of my main takeaways from this project is how to efficiently manage my time. This project was an eye-opener for me because I started it a few days before the deadline, which is a pretty early start for me at least, and I still did not manage to fully complete it. In total, I spent around 10 to 11 hours working on this and was unable to meet every requirement. In the future, I will take time management more seriously to avoid running into this problem again.
+-  I learned how to meticulously document every step of the design process, even though it can be tedious at times. It's important because it lets others know your exact thought process throughout the project. In fact, there was a few times when I took a break from working on this assignment, only to come back and forget what I was doing. By going through my documentation, I was able to jog my memory and resume where I left off. 
