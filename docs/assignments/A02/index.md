@@ -43,7 +43,9 @@ To calculate the weight, I first listed the lengths of each member. Then, I mult
 
 ## Pin Structure
 
+<img width="309" height="384" alt="unnamed (5)" src="https://github.com/user-attachments/assets/07bf382b-4caf-4fdb-8f5d-304954b39c82" />
 
+Next, I found the cross-sectional area of each pin using pin C. I used pin C specifically because it carries the biggest load of 7kN. The given information is listed at the top of this image. Again, I split my work into sections to stay organized. In section 1, I converted the values into proper units. In section 2, I used the formula found in the textbook, just like how I found the cross-sectional area for the members, to find the area of the pins. 
 
 ## Lessons Learned
 
