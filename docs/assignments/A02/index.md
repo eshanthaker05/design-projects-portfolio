@@ -30,6 +30,18 @@ Next, I drew a free body diagram of the external forces, consisting of the force
 
 Using the external force values, I calculated the internal forces. Using the method of joints, I found the internal forces of each point, starting from Point A and ending on Point C. I drew a free body diagram for each point and assumed each member was in tension at first. If its calculated value was negative, that just meant that the member was in compression, and I changed the free body diagram of the point accordingly. I've listed the internal forces on each member at the end as well as if they're in tension or compression. 
 
+## Cross-Sectional Area
+
+<img width="385" height="312" alt="unnamed (4)" src="https://github.com/user-attachments/assets/c2a3b67c-e1b2-4682-b91b-eb4430439bc9" />
+
+Next, I calculated the cross-sectional area of the members of the truss. I listed the relevent known information at the top of the page. The work below is sectioned off by numbers to keep it organized and easy to read. In section 1, I convert the values for the internal force and the minimum yield strength into compatible units. I didn't know where to go from here, but after reading the listed pages from the textbook, I realized I could rearrange the stress equation to solve for the cross-sectional area. In section 2, I rearranged the formula and plugged in the values from section 1. In section 3, I converted the units of the area from m^2 to mm^2. Lastly, in section 4, I applied the safety factor of 3.5 to obtain a final cross-sectional area of 207.56 mm^2. 
+
+<img width="520" height="284" alt="IMG_2955" src="https://github.com/user-attachments/assets/2b875a98-f677-4aa9-b35b-fa2ad87fa3a3" />
+<img width="278" height="277" alt="IMG_2956" src="https://github.com/user-attachments/assets/c52f73ed-e605-45f5-b2ae-1d4f673f8557" />
+
+To calculate the weight, I first listed the lengths of each member. Then, I multiplied each length by the cross-sectional area, taking into account the safety factor of 3.5, and found the volume in m^3. Lastly, I multiplied the volume by the density of A500 Steel to find the weights of each member. Adding these values up gave me the total weight of the truss in kg. 
+
+
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
 
