@@ -62,5 +62,12 @@ According to the Von Mises stress curve, the maximum stress is 358 psi, which is
 
 ## Design Reflection
 
+The axial deformation I calculated at the start was 0.009 inches and the axial deformation obtained through Creo Parametric is 0.0028 inches. The percent difference between these two is 105.1%. Looking back, I think the low amount of significant figures used in Creo Parametric might have contributed to this difference. When calculating it by hand, I don't round until the very end. This slight change might have compounded and resulted in the high percent difference seen above. Due to this, I'd trust my own hand calculations move since they use more significant figures during calculations. 
+
+## Lessons Learned 
+
+Unlike last time, I actually began this project a little earlier, though not as earlier as I'd like. This let me spend more time and effort on the process of this project, instead of just rushing to finish. Aside from time management skills, I learned a lot about how to simulate stresses and deformations in Creo Parametric, something I've never done before. In total, I spent around 7 hours on this project. 
+
+[Download CAD File](https://drive.google.com/file/d/1nciBFJbLIHV3qH5qD0ySbsG3rDXLyJ4t/view?usp=drive_link)
 
 
