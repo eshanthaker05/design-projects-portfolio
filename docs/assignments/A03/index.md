@@ -68,6 +68,9 @@ The axial deformation I calculated at the start was 0.009 inches and the axial d
 
 Unlike last time, I actually began this project a little earlier, though not as earlier as I'd like. This let me spend more time and effort on the process of this project, instead of just rushing to finish. Aside from time management skills, I learned a lot about how to simulate stresses and deformations in Creo Parametric, something I've never done before. In total, I spent around 7 hours on this project. 
 
-[Download CAD File](https://drive.google.com/file/d/1nciBFJbLIHV3qH5qD0ySbsG3rDXLyJ4t/view?usp=drive_link)
+[Download CAD File 1](https://drive.google.com/file/d/1fXVJT_HV4frl0Ic1DqJEpxCXz44_58Vy/view?usp=drive_link)
+
+[Download CAD File 2](https://drive.google.com/file/d/1nciBFJbLIHV3qH5qD0ySbsG3rDXLyJ4t/view?usp=drive_link)
+
 
 
