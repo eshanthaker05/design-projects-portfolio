@@ -87,11 +87,39 @@ I followed the same steps I took for feature 1 to calculate the dimensions for f
 The isometric sketch is provided above. Notice how the height of feature 2 is much bigger than the other dimensions. This is because I used the greater calculated value from my feature 2 calculations. 
 
 
-## Communicate
-
 ### CAD Model
 
+<img width="240" height="343" alt="Screenshot 2026-09-17 035448" src="https://github.com/user-attachments/assets/2c34e6a0-4e9e-45a8-977a-9bf8d687cab6" />
 
+First, I sketched feature 1. I also included the length of feature 2 to make the process easier. 
+
+<img width="201" height="197" alt="Screenshot 2026-09-17 035511" src="https://github.com/user-attachments/assets/6e852ae9-c2e3-45e3-a382-19d63c9c5e4b" />
+
+Next, I extruded the height of feature 1 onto the whole body. 
+
+<img width="274" height="203" alt="Screenshot 2026-09-17 035543" src="https://github.com/user-attachments/assets/f02f6eea-3503-4704-a5db-da2a11a9c7a5" />
+
+Next, I sketched the base of feature 2 onto the side. 
+
+<img width="283" height="258" alt="Screenshot 2026-09-17 035641" src="https://github.com/user-attachments/assets/f65f4204-8e35-46bd-87f1-dabc07825db8" />
+
+Next, I extruded the sketch up to the height of feature 2. 
+
+<img width="225" height="264" alt="Screenshot 2026-09-17 040955" src="https://github.com/user-attachments/assets/24e386ca-02db-4504-96fd-010944b7d028" />
+
+Then, I added a whole to account for the motor on feature 1. The radius was found in Appendix A. 
+
+<img width="218" height="155" alt="Screenshot 2026-09-17 041454" src="https://github.com/user-attachments/assets/f3b2fb7d-8108-47d9-9579-d248cca9d8cb" />
+
+Lastly, I added the bottom hole for the motor to be placed in. The radius was found in Appendix A. 
+
+## Lessons
+
+This assignment took mw 5 hours to complete. Most of my time was spent on the calculations. Looking back at my CAD model, I must have messed up the numbers somewhere because the feature dimensions look a little wonky, but I could not figure out where I went wrong. 
+
+[CAD File](https://drive.google.com/file/d/1Aj1zNLBoIYj84_vFgvkYsBjrNWdHNRG-/view?usp=drive_link)
+
+## References
 
 [Mechanical Properties of PLA](https://www.sciencedirect.com/science/article/pii/S2405844024140972#sec2)
 
