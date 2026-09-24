@@ -68,7 +68,7 @@ Assume no failure due to direct shear stress
 
 Treat like a cantilever beam (Appendix D)
 
-L = 1.25 in (assumption based on the 0.75 in width of Uline Strap)
+Length (L) = 1.25 in (assumption based on the 0.75 in width of Uline Strap)
 
 P = 700 lbf
 
@@ -106,7 +106,7 @@ Treat like an axial loaded bar (Appendix D)
 
 Fb = 875 lbf (Ra carried over from Feature A)
 
-L = 0.5 in (assumption based on visual length of Feature B in Appendix C)
+Length (L) = 0.5 in (assumption based on visual length of Feature B in Appendix C)
 
 ### Unknowns
 
@@ -136,7 +136,7 @@ Treat like a simply supported beam with a concentrated load at the center (Appen
 
 Fc = 875 lbf (Rb carried over from Feature B)
 
-L = 1.5 in (assumption)
+Length (L) = 1.5 in (assumption)
 
 Width (w) = 1.0 in (assumption to match length with Feature A)
 
@@ -166,7 +166,7 @@ Load from Feature C reaction force is centered
 
 Fd = 437.5 lbf (Rc2 carried over from Feature C
 
-Length (L) - 1.5 in (assumed to match Feature C)
+Length (L) = 1.5 in (assumed to match Feature C)
 
 Width (w) = 1.0 in (assumed to match Feature C)
 
@@ -184,12 +184,23 @@ I started by drawing the free body diagram and solving for the reaction force. N
 
 ### Knowns / Assumptions 
 
+Rectangular cantilever beam
+
+Length (L) = 1.5 in (assumed to match Feature D)
+
+Width (w) = 0.5 in (assumed based on visual width in Appendix C)
+
+Fe = 437.5 lbf (Fd carried over from Feature D)
 
 ### Unknowns 
+
+Height (h)
 
 ### Calculations
 
 insert feature E calculations here
+
+I started by drawing the free body diagram and solving for Fe. Next, I conducted the stress and stiffness analyses and found that the height obtained from the stress analysis is greater than the one from the stiffness analysis. 
 
 ## Multiview Sketches
 
