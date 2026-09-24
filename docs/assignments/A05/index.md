@@ -31,7 +31,7 @@ Design using a safety factor of 4 and applied load in between 500 lbf < F < 800 
 
 Note: If the bracket is designed symmetrically a lot of work would be cut.
 
-<img width="813" height="375" alt="Screenshot 2026-09-23 002413" src="https://github.com/user-attachments/assets/bf0e11ac-24a5-4646-9b57-4c26adbc87e2" />
+<img width="407" height="188" alt="Screenshot 2026-09-23 002413" src="https://github.com/user-attachments/assets/bf0e11ac-24a5-4646-9b57-4c26adbc87e2" />
 
 
 ## Design Specifications
@@ -80,16 +80,24 @@ Moment (Ma)
 
 ### Calculations 
 
-insert feature A calcs here
+<img width="244" height="302" alt="Screenshot 2026-09-23 203417" src="https://github.com/user-attachments/assets/36ee6938-5261-4448-bfd8-862bcfdc2301" />
+
 
 I started with drawing the free body diagram of feature A and treated it like a cantilever beam. To convert the distributed load of P into a single load, I multiplied it by the assumed length and applied it to the midpoint. I then used this to find the reaction force in the y-direction. I assumed the reaction force in the x-direction to be zero since there are no other forces in that direction. Next, I calculated the moment by multiplying the single load P by half the length of feature A. 
 
 After calculating the moment, I solved for the section moduli using the formula provided in Appendix A. From here, I plugged Z into the formula for diameter, which I found by multiplying the formula provided for radius in Appendix A by two. 
 
-insert feature A stress + stiffness analysis here
+<img width="237" height="251" alt="Screenshot 2026-09-23 203428" src="https://github.com/user-attachments/assets/50c3471e-f305-4d66-801b-17c7008cebc1" />
 
-Next, I conducted a stress analysis and stiffness analysis of Feature A. I started by calculating the max stress
 
-## Resources 
+First, I conducted a stress analysis for Feature A. I started by calculating the maximum stress. I then used this value to find the required section modulus. Since my required section modulus is less than the trial section modulus value I calulated earlier, I can safely proceed with the trial section modulus from before. Using that value, I calculated the radius of Feature A. 
+
+I moved onto conducting a stiffness analysis. I started with the deflection formula and rearranged to find the moment of inertia, which I found by plugging in all the known values. Next, I rearranged the moment of inertia formula for a circular beam to find the radius. 
+
+The radius calculated from the stress analysis and the radius calculated from the stiffness analysis are the same value, which means the design I've chosen is well-optimized. If they weren't the same, I would go with the greater radius value. 
+
+## Lessons Learned
+
+I spent a long time doing the stress analysis for Feature A because I didn't know the difference between the trial section modulus and the required section modulus. I also kept confusing myself when calculating for max stress. In the end, I figured out the difference. To my understanding, the required section modulus is the minimum value needed to withstand the max stress. Since my trial section modulus was greater than the required value, I was able to continue my calculations with that original trial section modulus value. 
 
 [Titanium Mechanical Properties](https://www.azom.com/article.aspx?ArticleID=9299)
