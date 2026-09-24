@@ -120,7 +120,7 @@ Thickness (b)
 
 ### Calculations
 
-insert feature B calculations here
+<img width="249" height="287" alt="Screenshot 2026-09-24 041055" src="https://github.com/user-attachments/assets/1e49d71e-1469-4825-915e-ae5de6a9bd17" />
 
 I began by drawing the free body diagram for Feature B. Force (Fa) is essentially the reaction force (Ra) from my calculations from Feature A. Using this, I found the reaction force (Rb). I disregarded the reaction force in the x-direction because there are no forces in that direction. 
 
@@ -148,7 +148,7 @@ Height (h)
 
 ### Calculations 
 
-insert feature C calculations
+<img width="249" height="290" alt="Screenshot 2026-09-24 041102" src="https://github.com/user-attachments/assets/fe1513bf-c15a-45d4-9440-f18a1cf352a0" />
 
 First, I drew the free body diagram of Feature C. Force (Fb) is essentially the reaction force (Rb) from my calculations from Feature B. Since this is a simply supported beam, there are reaction forces (Rc1, Rc2) on both ends of the beam and they are equal to each other according to the Machinery's Handbook (pg 251). I used Fb to solve for the total reaction force (Rc), then divided in two to find the individual reaction forces. I disregarded any reaction forces in the x-direction since there are no applied forces in that direction.  
 
@@ -176,7 +176,7 @@ Height (h)
 
 ### Calculations 
 
-insert feature d calculations here
+<img width="248" height="291" alt="Screenshot 2026-09-24 041110" src="https://github.com/user-attachments/assets/84d18130-10c6-4c68-aabd-6cfe073bd1f2" />
 
 I started by drawing the free body diagram and solving for the reaction force. Next, I conducted a stress analysis and found the required height. Then, I conducted a stiffness analysis and solved for the cross-sectional area. Using this value, I solved for the required height. The height obtained from the stress analysis is greater, so I went with that one. 
 
@@ -198,16 +198,39 @@ Height (h)
 
 ### Calculations
 
-insert feature E calculations here
+<img width="245" height="290" alt="Screenshot 2026-09-24 041124" src="https://github.com/user-attachments/assets/e5c5c36c-78f3-40f0-a738-ca59b4f0be36" />
 
 I started by drawing the free body diagram and solving for Fe. Next, I conducted the stress and stiffness analyses and found that the height obtained from the stress analysis is greater than the one from the stiffness analysis. 
 
 ## Multiview Sketches
 
+### Stress 
+
+insert here
+
+### Stiffness
+
+insert here
+
 ## Lessons Learned
 
 I spent a long time doing the stress analysis for Feature A because I didn't know the difference between the trial section modulus and the required section modulus. I also kept confusing myself when calculating for max stress. In the end, I figured out the difference. To my understanding, the required section modulus is the minimum value needed to withstand the max stress. Since my trial section modulus was greater than the required value, I was able to continue my calculations with that original trial section modulus value. 
 
-By the time I finished calculations for Feature C, I had a pretty decent understanding on stress and stiffness analyses and how they can be used to find the dimensions of a beam, depending on the beam type. 
+By the time I finished calculations for Feature C, I had a pretty decent understanding on stress and stiffness analyses and how they can be used to find the dimensions of a beam, depending on the beam type. Also, I realized that I did a bunch of unnecessary steps in Feature A, further confusing me. 
+
+### Governing Failure Mode
+
+For Feature A, the radius obtained from stress and stiffness are practically the same. This means that the dimensions for this feature work very well given the maximum deflection and the mechanical properties of the material. 
+
+### Error Propagation
+
+During feature C, I noticed that I had miscalculated a few values during Feature B, resulting in my numbers to be slightly off. I recalculated them and continued working. 
+
+### Assumption
+
+I assumed the length of Feature A to be 1.25 inches. This assumption had an effect on the dimensions of every feature afterwards. If this length was a different value or if it is incorrect, the dimensions of all the other features would need to be adjusted. 
+
+In total, I spent around 10 hours on this assignment. 
+
 
 [Titanium Mechanical Properties](https://www.azom.com/article.aspx?ArticleID=9299)
