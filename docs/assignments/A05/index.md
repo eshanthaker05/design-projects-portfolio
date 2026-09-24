@@ -104,7 +104,7 @@ Solid box beam
 
 Treat like an axial loaded bar (Appendix D)
 
-F = 875 lbf (Ra carried over from Feature A)
+Fb = 875 lbf (Ra carried over from Feature A)
 
 L = 0.5 in (assumption based on visual length of Feature B in Appendix C)
 
@@ -134,11 +134,11 @@ Lastly, I found the width and thickness of Feature B using the cross-sectional a
 
 Treat like a simply supported beam with a concentrated load at the center (Appendix D)
 
-P = 875 lbf (Rb carried over from Feature B)
+Fc = 875 lbf (Rb carried over from Feature B)
 
 L = 1.5 in (assumption)
 
-Thickness (b) = 1.0 in (assumption to match length with Feature A)
+Width (w) = 1.0 in (assumption to match length with Feature A)
 
 ### Unknowns 
 
@@ -156,9 +156,47 @@ insert feature C calculations
 
 I then conducted both stress and stiffness analyses to find the height. I obtained the stress and deflection formulas from the Machinery's Handbook, then rearranged to solve for Zreq and I, respectively. In the end, I found the height determined from the stiffness analysis to be greater than that of the stress analysis. 
 
+## Feature D
+
+### Knowns / Assumptions
+
+Solid box beam (assumed based on Appendix C)
+
+Load from Feature C reaction force is centered
+
+Fd = 437.5 lbf (Rc2 carried over from Feature C
+
+Length (L) - 1.5 in (assumed to match Feature C)
+
+Width (w) = 1.0 in (assumed to match Feature C)
+
+### Unknowns
+
+Height (h)
+
+### Calculations 
+
+insert feature d calculations here
+
+I started by drawing the free body diagram and solving for the reaction force. Next, I conducted a stress analysis and found the required height. Then, I conducted a stiffness analysis and solved for the cross-sectional area. Using this value, I solved for the required height. The height obtained from the stress analysis is greater, so I went with that one. 
+
+## Feature E
+
+### Knowns / Assumptions 
+
+
+### Unknowns 
+
+### Calculations
+
+insert feature E calculations here
+
+## Multiview Sketches
 
 ## Lessons Learned
 
 I spent a long time doing the stress analysis for Feature A because I didn't know the difference between the trial section modulus and the required section modulus. I also kept confusing myself when calculating for max stress. In the end, I figured out the difference. To my understanding, the required section modulus is the minimum value needed to withstand the max stress. Since my trial section modulus was greater than the required value, I was able to continue my calculations with that original trial section modulus value. 
+
+By the time I finished calculations for Feature C, I had a pretty decent understanding on stress and stiffness analyses and how they can be used to find the dimensions of a beam, depending on the beam type. 
 
 [Titanium Mechanical Properties](https://www.azom.com/article.aspx?ArticleID=9299)
