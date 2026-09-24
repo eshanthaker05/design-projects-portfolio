@@ -206,11 +206,11 @@ I started by drawing the free body diagram and solving for Fe. Next, I conducted
 
 ### Stress 
 
-insert here
+<img width="246" height="304" alt="Screenshot 2026-09-24 045315" src="https://github.com/user-attachments/assets/8eff28fc-bcd0-46fa-b2ef-e7fe28337a69" />
 
 ### Stiffness
 
-insert here
+<img width="244" height="237" alt="Screenshot 2026-09-24 045321" src="https://github.com/user-attachments/assets/7ffbdf14-19a1-4c27-845f-b57d777b2cfe" />
 
 ## Lessons Learned
 
