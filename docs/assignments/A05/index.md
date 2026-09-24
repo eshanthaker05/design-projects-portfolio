@@ -96,6 +96,8 @@ I moved onto conducting a stiffness analysis. I started with the deflection form
 
 The radius calculated from the stress analysis and the radius calculated from the stiffness analysis are the same value, which means the design I've chosen is well-optimized. If they weren't the same, I would go with the greater radius value. 
 
+## Feature B
+
 ## Lessons Learned
 
 I spent a long time doing the stress analysis for Feature A because I didn't know the difference between the trial section modulus and the required section modulus. I also kept confusing myself when calculating for max stress. In the end, I figured out the difference. To my understanding, the required section modulus is the minimum value needed to withstand the max stress. Since my trial section modulus was greater than the required value, I was able to continue my calculations with that original trial section modulus value. 
