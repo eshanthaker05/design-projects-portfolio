@@ -114,11 +114,15 @@ Reaction Force (Rb)
 
 Cross-Sectional Area (Ab)
 
+Width (w)
+
+Thickness (b)
+
 ### Calculations
 
 insert feature B calculations here
 
-I began by drawing the free body diagram for Feature B. Force (F) is essentially the reaction force (Ra) from my calculations from Feature A. Using this, I found the reaction force (Rb). I disregarded the reaction force in the x-direction because there are no forces in that direction. 
+I began by drawing the free body diagram for Feature B. Force (Fa) is essentially the reaction force (Ra) from my calculations from Feature A. Using this, I found the reaction force (Rb). I disregarded the reaction force in the x-direction because there are no forces in that direction. 
 
 My next step was to find the cross-sectional area. I conducted a stress analysis using the allowable stress and Rb and found the minimum required cross-sectional area. I then conducted a stiffness analysis and plugged in the values I already know. I assumed the length based on how Feature B in Appendix C compared to Feature A. In the end, I found the cross-sectional area requirement from the stress analysis to be greater, so I went with that value. 
 
@@ -132,11 +136,25 @@ Treat like a simply supported beam with a concentrated load at the center (Appen
 
 P = 875 lbf (Rb carried over from Feature B)
 
-L = 
+L = 1.5 in (assumption)
+
+Thickness (b) = 1.0 in (assumption to match length with Feature A)
 
 ### Unknowns 
 
+Reaction Forces (Rc1, Rc2)
+
+Height (h)
+
 ### Calculations 
+
+insert feature C calculations
+
+First, I drew the free body diagram of Feature C. Force (Fb) is essentially the reaction force (Rb) from my calculations from Feature B. Since this is a simply supported beam, there are reaction forces (Rc1, Rc2) on both ends of the beam and they are equal to each other according to the Machinery's Handbook (pg 251). I used Fb to solve for the total reaction force (Rc), then divided in two to find the individual reaction forces. I disregarded any reaction forces in the x-direction since there are no applied forces in that direction.  
+
+insert feature C calculations
+
+I then conducted both stress and stiffness analyses to find the height. I obtained the stress and deflection formulas from the Machinery's Handbook, then rearranged to solve for Zreq and I, respectively. In the end, I found the height determined from the stiffness analysis to be greater than that of the stress analysis. 
 
 
 ## Lessons Learned
