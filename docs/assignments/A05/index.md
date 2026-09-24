@@ -98,6 +98,47 @@ The radius calculated from the stress analysis and the radius calculated from th
 
 ## Feature B
 
+### Knowns / Assumptions
+
+Solid box beam
+
+Treat like an axial loaded bar (Appendix D)
+
+F = 875 lbf (Ra carried over from Feature A)
+
+L = 0.5 in (assumption based on visual length of Feature B in Appendix C)
+
+### Unknowns
+
+Reaction Force (Rb)
+
+Cross-Sectional Area (Ab)
+
+### Calculations
+
+insert feature B calculations here
+
+I began by drawing the free body diagram for Feature B. Force (F) is essentially the reaction force (Ra) from my calculations from Feature A. Using this, I found the reaction force (Rb). I disregarded the reaction force in the x-direction because there are no forces in that direction. 
+
+My next step was to find the cross-sectional area. I conducted a stress analysis using the allowable stress and Rb and found the minimum required cross-sectional area. I then conducted a stiffness analysis and plugged in the values I already know. I assumed the length based on how Feature B in Appendix C compared to Feature A. In the end, I found the cross-sectional area requirement from the stress analysis to be greater, so I went with that value. 
+
+Lastly, I found the width and thickness of Feature B using the cross-sectional area. I assumed the beam to be a box beam, meaning its width and thickness are equal. 
+
+## Feature C
+
+### Knowns / Assumptions
+
+Treat like a simply supported beam with a concentrated load at the center (Appendix D)
+
+P = 875 lbf (Rb carried over from Feature B)
+
+L = 
+
+### Unknowns 
+
+### Calculations 
+
+
 ## Lessons Learned
 
 I spent a long time doing the stress analysis for Feature A because I didn't know the difference between the trial section modulus and the required section modulus. I also kept confusing myself when calculating for max stress. In the end, I figured out the difference. To my understanding, the required section modulus is the minimum value needed to withstand the max stress. Since my trial section modulus was greater than the required value, I was able to continue my calculations with that original trial section modulus value. 
