@@ -43,5 +43,6 @@ When designing this bracket, the dimensions of some features changed depending o
 The biggest mistake I made when completing this assingment is the engineering drawing. I could not get the tolerances and the dimensions to properly show up, let alone populate the title block in the bottom right corner. Learning how to navigate Creo Parametric, and eventually other modeling softwares, is an important skill to have and a personal goal of mine to achieve. The total time I spent on this assingment is ~4 hours. 
 
 [CAD File](https://drive.google.com/file/d/1GKyRX5sDLFWeCbsKotYK9DKMobYI0AeM/view?usp=drive_link)
+
 [Engineering Drawing](https://drive.google.com/file/d/1y3qcl_VgnSDS6KCREoPORpvC8wKowYIN/view?usp=drive_link)
 
