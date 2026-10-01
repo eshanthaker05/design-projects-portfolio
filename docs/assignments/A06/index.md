@@ -28,11 +28,15 @@ I moved onto Feature C, extruding it over Feature B using parameters I inputted.
 
 For Features D and E, I thought it would be easier if I extruded a block over Feature C, then removed the negative space to automatically make Features D and E simultaneously. 
 
+## Drawing
 
+<img width="360" height="281" alt="Screenshot 2026-10-01 050521" src="https://github.com/user-attachments/assets/16435753-4d45-4c45-a184-e77ff536d778" />
 
+Shown above is the engineering drawing that goes with the bracket. 
 
+## Reflections
 
-## Decide
+When designing this bracket, the dimensions of some features changed depending on the maximum stiffness and/or stress they could handle. For example, when modeling Feature A, it didn't matter which equation I used because they both resulted in the same diameter for the cylinder. For Feature C however, I used the stiffness equation to model the height since it yielded a higher value. 
 
 
 ## Communicate
