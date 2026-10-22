@@ -42,22 +42,44 @@ Assume no failure due to direct shear stress
 
 ## FEA Setup 
 
-For my first test, I decided to use my original design and see how close it got to the 7% convergence under FEA analysis. To set up my FEA constraints, I hit Applications>Simulate>Home>Displacement. I selected the back plane to constrain, as shown in the image below. 
+To set up my FEA constraints, I hit Applications>Simulate>Home>Displacement. I selected the planes show below to constrain under the assumption that the artifact will be held up using a sliding hook. 
 
-<img width="338" height="218" alt="Screenshot 2026-10-20 230736" src="https://github.com/user-attachments/assets/403bb0f5-1f51-43ee-bb8c-f8bca848f87f" />
+<img width="375" height="256" alt="Screenshot 2026-10-21 173211" src="https://github.com/user-attachments/assets/6a53468b-0cbc-4c6f-90de-a3480d071678" />
 
 Next, I added the distributed force of 700 lbf onto Feature A. I hit Force/Moment and inputted the load onto Feature A, making sure to change units to lbf. I hit Ok and my resulting model can be seen in the image below. 
 
 <img width="338" height="214" alt="Screenshot 2026-10-20 231912" src="https://github.com/user-attachments/assets/8a3ffa28-df22-4450-9bef-39f81a97b751" />
 
-I didn't change the material of my model, as outlined in the instructions for this assignment. 
+For the material, I hit Material Assignment>More(next to Materials)>Standard Materials>Nonferrous Metals>Ti-Al-V Alloy>Select. I am using the same material I used when originally modeling this bracket, as outlined in the instructions of this assingment. Lastly, I set the max element size to 2 inches for the first mesh model. 
 
-## Design 1
+## Design #1
 
+### Mesh Model #1
 
+To start, I used my original bracket model and ran a mesh analysis with an element size of 2 inches. To run the analysis, I hit Analyses and Studies>File>New Static>Green Flag>Yes. Once it was complete, I pulled up the results for the stress test and the deflection tests and marked the points at which the values were the highest. The values can be seen in the images below. 
 
+<img width="378" height="263" alt="Screenshot 2026-10-21 192710" src="https://github.com/user-attachments/assets/e670d3cc-811a-4521-bf97-130f9e21d9a0" />
 
+<img width="378" height="263" alt="Screenshot 2026-10-21 192814" src="https://github.com/user-attachments/assets/f9453681-ecf8-4b24-ab08-a48818efd9b8" />
 
+Using the simulated maximum stress value and the known yield strength, I calculated the factor of safety to be 0.56. This is much lower than the required factor of safety value of 4 listed in the instructions of A5. I found the number of elements by hitting AutoGEM>Create as well as the mesh model as seen in the image below. 
 
+<img width="314" height="153" alt="Screenshot 2026-10-21 191258" src="https://github.com/user-attachments/assets/93a3349f-9ee4-4c75-8674-dfa5d7c05ce5" />
+
+The values found from this first mesh model are listed below: 
+
+**Max Stress and Location:**	2.126 * 10^5 psi
+**Max Deflection and Location:** 	6.315 * 10^-2 in 
+**Mass:**	9.153 *10^-2 lb
+**Safety Factor:** 	0.56
+**Number of Elements:**	876
+
+### Mesh Model #2
+
+For the second mesh model, the size of the elements was lowered from 2 inches to 1 inch to increase the total number of elements. 
+
+<img width="375" height="412" alt="Screenshot 2026-10-21 200541" src="https://github.com/user-attachments/assets/30332963-8206-43ea-8de2-63ded0eea809" />
+
+The steps listed above were repeated to obtain the stress and deflection models, which can be seen in the images below. The maximum values for each model are highlighted. 
 
 
