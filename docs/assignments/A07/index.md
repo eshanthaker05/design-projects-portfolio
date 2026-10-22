@@ -54,7 +54,7 @@ For the material, I hit Material Assignment>More(next to Materials)>Standard Mat
 
 ## Design I
 
-### Course Mesh
+### coarse Mesh
 
 I set the max element size to 2.4 inches for the first mesh model as seen below. I wanted to create a mesh with bigger elements, but Creo was limiting my maximum element size to about 2.49 inches. I could not get around this for the life of me so I decided to use 2.4 inches for element sizes.
 
@@ -74,9 +74,13 @@ Using the simulated maximum stress value and the known yield strength, I calcula
 The values found from this first mesh model are listed below: 
 
 **Max Stress and Location:**	2.126 * 10^5 psi
+
 **Max Deflection and Location:** 	6.315 * 10^-2 in 
+
 **Mass:**	9.153 *10^-2 lb
+
 **Safety Factor:** 	0.56
+
 **Number of Elements:**	164
 
 ### Medium Mesh 
@@ -105,7 +109,7 @@ Using the new simulated maximum stress value, the factor of safety was calculate
 
 **Number of Elements:** 159
 
- I then found the percent difference between these values and the values obtained with the course mesh using the following formula
+ I then found the percent difference between these values and the values obtained with the coarse mesh using the following formula
  
  % Difference = (New-Old)/Old * 100
 
@@ -117,7 +121,7 @@ Using the new simulated maximum stress value, the factor of safety was calculate
 
  **Safety Factor % Difference:** -99.64%
 
- Looking at these, numbers, I don't really trust them so far the fine mesh model, I'll be comparing my new values to the original values found with the course mesh. 
+ Looking at these, numbers, I don't really trust them so far the fine mesh model, I'll be comparing my new values to the original values found with the coarse mesh. 
 
 ### Fine Mesh 
 
@@ -147,7 +151,7 @@ The new calculated factor of safety, along with the rest of the values obtained 
 
 **Number of Elements:** 7889
 
-I then found the percent difference between these values and the values obtained from the course mesh, which are listed below. 
+I then found the percent difference between these values and the values obtained from the coarse mesh, which are listed below. 
 
  **Stress % Difference:** 74.37%
 
@@ -157,8 +161,89 @@ I then found the percent difference between these values and the values obtained
 
  These values, especially the stress % difference, seem a lot more reliable to me. I decided to go with the fine mesh model values for my final Design 1 values. 
 
- ## Design II
+## Design II
 
+When changing the geometry, the goal was to minimize the stress, deflection, and mass on the bracket. Keeping that in mind, I reduced the length of Feature A by 0.5 inches. In the stress models from Design I, the most amount of stress was experienced on Feature B, so by minimizing the length of Feature A, the moment on Feature B would decrease, resulting in lower stresses. The new geometry of the bracket is shown below. 
+
+<img width="390" height="272.5" alt="Screenshot 2026-10-21 232035" src="https://github.com/user-attachments/assets/344d7681-2b70-404b-84f2-f68c92a23198" />
+
+The total mass of the bracket decreased to 7.36 * 10^-2 lbs since the volume of Feature A was reduced. 
+
+### Coarse Mesh 
+
+Originally, I wanted to use the same element size that I used in Design I for all my mesh models. However, Creo limited my maximum element size to under 2.28 inches this time. I do not know why it keeps restricting me using seemingly random numbers. All my attempts to get around this have not worked. I decided to use an element size of 2.2 inches for this mesh model as seen below. 
+
+<img width="266" height="412" alt="Screenshot 2026-10-21 233117" src="https://github.com/user-attachments/assets/86658abf-b073-4c3e-9bce-ca0253ad144f" />
+
+Using this element size, I obtained the number of elements, as shown below. 
+
+<img width="412" height="221" alt="Screenshot 2026-10-21 233247" src="https://github.com/user-attachments/assets/f8b26728-98a0-4b1f-a4e7-356f54e18a58" />
+
+Next, I obtained the maximum stress and deflection values by following the same procedure as before as shown in the images below. 
+
+<img width="350.5" height="220" alt="Screenshot 2026-10-21 233517" src="https://github.com/user-attachments/assets/70b0600b-11fd-4c1f-acf4-1e36e1d9624c" />
+
+<img width="379" height="250" alt="Screenshot 2026-10-21 233547" src="https://github.com/user-attachments/assets/f026104a-5344-428e-b59e-ebc796e484d1" />
+
+The values obtained from this coarse mesh model are listed below, including the factor of safety calculated from the simulated maximum stress value. 
+
+**Max Stress and Location (psi):**	126300
+
+**Max Deflection and Location (in):** 0.02325
+
+**Mass (lb):** 0.0736
+
+**Safety Factor:** 	0.951
+
+**Number of Elements:**	156
+
+### Medium Mesh 
+
+To create the medium mesh model, I set the element size to 1.3 inches as seen below because I wanted the difference between element sizes between coarse and medium meshes to remain the same between Design I and Design II. 
+
+<img width="270" height="411" alt="Screenshot 2026-10-21 234738" src="https://github.com/user-attachments/assets/570ff155-3f5e-41b9-989d-b06bb1b0411d" />
+
+I then found the number of elements as shown below. Somehow, the number of elements is lower when the element size decreases as displayed in Design I. I'm pretty sure I'm making a mistake somehow, somewhere but when I repeat the exact same procedure for the fine mesh, everything seems fine so I'm entirely sure where I'm messing up.
+
+<img width="396" height="219" alt="Screenshot 2026-10-21 234908" src="https://github.com/user-attachments/assets/4602811b-9c79-4bb5-8a21-9689e76ddaae" />
+
+Moving onto the stress and deflection models, I obtained them the same way I've been obtaining them throughout this assingment and can be seen in the images below. 
+
+<img width="366" height="223.5" alt="Screenshot 2026-10-21 235030" src="https://github.com/user-attachments/assets/27e11931-074c-42bd-8f87-3a62d12adcfc" />
+
+<img width="317.5" height="211.5" alt="Screenshot 2026-10-21 235042" src="https://github.com/user-attachments/assets/475de149-4fb1-441d-9833-cf82bebd27e9" />
+
+The values obtained from this coarse mesh model are listed below, including the factor of safety calculated from the simulated maximum stress value. 
+
+**Max Stress and Location (psi):** 121200
+
+**Max Deflection and Location (in):** 0.02365
+
+**Mass (lb):** 0.0736
+
+**Safety Factor:** 0.099
+
+**Number of Elements:** 143
+
+I then found the percent difference between these values and the values obtained from the coarse mesh, which are listed below. 
+
+**Stress % Difference:** -4.04%
+
+**Deflection % Difference:** 1.72%
+
+**Safety Factor % Difference:** 4.21%
+
+Since the percent difference between my values from the coarse mesh and the medium mesh are within 7% of each other, the stress, deflection, and safety factor are converging and I don't need to conduct a fine mesh analysis. 
+
+## Design III
+
+### coarse Mesh 
+
+### Medium Mesh 
+
+### Fine Mesh
+
+## Reflections 
 
 
 
