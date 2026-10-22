@@ -325,7 +325,7 @@ Speaking specifically, I learned how the element size affects the stress and def
 
 **Total Time Taken:** ~6 hours 
 
-[CAD File](url)
+[CAD File](https://drive.google.com/file/d/1tETNuUV-vl8sl88veFMLH6HgbrQ1AWnJ/view?usp=sharing)
 
 
 
