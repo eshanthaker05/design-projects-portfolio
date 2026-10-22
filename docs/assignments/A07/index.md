@@ -50,7 +50,7 @@ Next, I added the distributed force of 700 lbf onto Feature A. I hit Force/Momen
 
 <img width="338" height="214" alt="Screenshot 2026-10-20 231912" src="https://github.com/user-attachments/assets/8a3ffa28-df22-4450-9bef-39f81a97b751" />
 
-For the material, I hit Material Assignment>More(next to Materials)>Standard Materials>Nonferrous Metals>Ti-Al-V Alloy>Select. I am using the same material I used when originally modeling this bracket, as outlined in the instructions of this assingment.
+For the material, I hit Material Assignment>More(next to Materials)>Standard Materials>Nonferrous Metals>Ti-Al-V Alloy>Select. I am using the same material I used when originally modeling this bracket, as outlined in the instructions of this assignment.
 
 ## Design I
 
@@ -207,7 +207,7 @@ I then found the number of elements as shown below. Somehow, the number of eleme
 
 <img width="396" height="219" alt="Screenshot 2026-10-21 234908" src="https://github.com/user-attachments/assets/4602811b-9c79-4bb5-8a21-9689e76ddaae" />
 
-Moving onto the stress and deflection models, I obtained them the same way I've been obtaining them throughout this assingment and can be seen in the images below. 
+Moving onto the stress and deflection models, I obtained them the same way I've been obtaining them throughout this assignment and can be seen in the images below. 
 
 <img width="366" height="223.5" alt="Screenshot 2026-10-21 235030" src="https://github.com/user-attachments/assets/27e11931-074c-42bd-8f87-3a62d12adcfc" />
 
@@ -310,6 +310,26 @@ The stress has decreased while the deflection has slightly increased. I then fou
 Since the percent difference between my values from the coarse mesh and the medium mesh are within 7% of each other, the stress, deflection, and safety factor are converging and I don't need to conduct a fine mesh analysis. 
 
 ## Reflections 
+
+### Tabulated Design Data
+
+Shown below is the final max stress, max deflection, mass, safety factor, and number of element values obtained throughout this assignment. 
+
+<img width="547" height="145" alt="image" src="https://github.com/user-attachments/assets/cd7f1a9d-5e7b-430f-b68f-552b7ea9ebdc" />
+
+### Lessons Learned
+
+I learned a lot of lessons throughout this assingment, but one thing that I've learned time and time again is to persevere through the uncertain. For the majority of this assignment, I had no idea if what I was doing was correct or if the steps I was taking were in the right direction. Regardless, I continued to power through and soak up as much information as I could throughout the process. In the end, my understanding of finite element analysis and how to use it as a tool has grown tremendously. I also learned how to use FEA through Creo, though there are still things I'm unsure about. 
+
+Speaking specifically, I learned how the element size affects the stress and deflection models when creating a mesh. For the most part, as element sizes decrease, maximum stress values should converge onto a single value, but these take longer to compute. Out of curiosity, I set my element size to 0.01 and ran a mesh analysis. After waiting for about 10 minutes for the analysis to be complete, I ended up restarting Creo Parametric since my whole computer was frozen.
+
+**Total Time Taken:** ~6 hours 
+
+[CAD File](url)
+
+
+
+
 
 
 
