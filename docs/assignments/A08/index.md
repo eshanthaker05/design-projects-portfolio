@@ -50,5 +50,19 @@ I then repeated the same steps from the input bearing for the output bearing. Th
 
 Lastly, I calculated the wall thickness as seen in the image above. 
 
-## Communicate
+## Sketch
+
+<img width="308" height="321" alt="Screenshot 2026-10-29 060126" src="https://github.com/user-attachments/assets/c7eeb78f-3f75-479d-80cb-b80c2beff323" />
+
+Shown above is the sketch I created prior to the CAD process. 
+
+## Lessons Learned
+
+The main lesson I learned from this assignment is how complicated working with gears can be. I had to keep careful track of all my variables and the unknowns I was solving for. 
+
+### Mistakes Made
+
+The biggest mistake I made during this assingment was not being able to finish the parametric modeling portion. Unfortunately, I had three exams scheduled this week and didn't realize I would be swamped with homework and studying until it was too late. I had to prioritize studying for a few exams over fully completing this assignment, which is why I wasn't able to complete the parametric design. I also realize that my documentation for this project is weaker than it should be. This is because I was rushing to finish this assignment so I'd be able to go back to reviewing. 
+
+**Time Spent:** 6 hours
 
