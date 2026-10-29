@@ -32,6 +32,23 @@ The image above shows my work process for the output shaft. I followed the same 
 
 ## Design Journal Bearings
 
+### Input Bearing 
+
+<img width="245" height="341" alt="Screenshot 2026-10-29 054349" src="https://github.com/user-attachments/assets/d4457a88-d5fd-4b01-aa48-115b9351fb0e" />
+
+Next, I found the journal bearing design for the input bearing and the material. I began by listing all my knowns and unknowns. I assumed a force of 1.0 lbf and the length of Lb to be 0.25 inches. Using these values, I calculated the bearing pressure, surface velocity, and PV. Comparing these values to the table of materials from the lecture, I decided to go with dry graphite as my material of choice because all three values exceed my calculated values. 
+
+### Output Bearing 
+
+<img width="246" height="337" alt="Screenshot 2026-10-29 054407" src="https://github.com/user-attachments/assets/8eafedef-2b69-4666-8729-3f4f3c27f7fe" />
+
+I then repeated the same steps from the input bearing for the output bearing. The values calculated for the bearing pressure, surface velocity, and PV can be seen in the image above. Again, my material of choice is dry graphite because all three calculated values are less than the values displayed in the chart from the lecture. 
+
+### Wall Thickness
+
+<img width="246" height="336" alt="Screenshot 2026-10-29 054419" src="https://github.com/user-attachments/assets/9f6a24f3-8b33-4490-9cd2-36e16b5b8acc" />
+
+Lastly, I calculated the wall thickness as seen in the image above. 
 
 ## Communicate
 
