@@ -54,7 +54,7 @@ Lastly, I calculated the wall thickness as seen in the image above.
 
 <img width="308" height="321" alt="Screenshot 2026-10-29 060126" src="https://github.com/user-attachments/assets/c7eeb78f-3f75-479d-80cb-b80c2beff323" />
 
-Shown above is the sketch I created prior to the CAD process. 
+Shown above is the sketch I created prior to the CAD process. The two gears in the sketch will be fit using a snap fit design. 
 
 ## Lessons Learned
 
