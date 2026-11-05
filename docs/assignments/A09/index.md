@@ -29,7 +29,7 @@ The purpose of this assignment is to design a pulley system to transfer power be
 
 <img width="381" height="494" alt="IMG_0006" src="https://github.com/user-attachments/assets/2af2822e-77df-4958-b504-3998e44bbabb" />
 
-I began by drawing a free body diagram of the left pulley. Next, I listed all the knowns and unknowns below it. Then, I used the formulas provided during lecture to calculate the tight and loose tensile forces, diameter of the belt, and the circumference of the belt. I assumed that there would be no slippage, resulting in a friction coefficient of 1. 
+I began by drawing a free body diagram of the left pulley. Next, I listed all the knowns and unknowns below it. Then, I used the formulas provided during lecture to calculate the tight and loose tensile forces, diameter of the belt, and the circumference of the belt. I assumed that there would be no slippage, resulting in a friction coefficient of 1. With the values calculated above, I picked belt I selected is McMaster-Carr Belt #8060K38. The diameter of this belt is 0.25 inches, matching the calculated diameter, and the length is 23 inches, which is the closest one to the calculated belt circumference that isn't too short. 
 
 ## Shaft
 
