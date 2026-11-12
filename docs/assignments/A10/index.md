@@ -48,4 +48,4 @@ To find a crosshead, we first ran a stress analysis and calculated a height valu
 
 ## Lessons Learned 
 
-In this assingment, we learned how to use multiple analysis methods to find an appropriate value, such as when we found the height of the crosshead. We also learned how to convert linear speed into rotational speed, and then use that to find the torque of an object. 
+In this assignment, we learned how to use multiple analysis methods to find an appropriate value, such as when we found the height of the crosshead. We also learned how to convert linear speed into rotational speed, and then use that to find the torque of an object. 
