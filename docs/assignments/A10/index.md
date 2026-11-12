@@ -124,5 +124,16 @@ This lead screw setup is incomplete as it is missing some key components for a p
 
 ## Lessons Learned 
 
+In this assignment, we learned how to use multiple analysis methods to find an appropriate value, such as when we found the height of the crosshead. We also learned how to convert linear speed into rotational speed, and then use that to find the torque of an object.
+
+[Frame](https://drive.google.com/file/d/14XVI5ntT0tfzCydKs530lmVxSxqJgEG4/view?usp=drive_link)
+
+[Head Screw](https://drive.google.com/file/d/1vg9_WwzWNuM6-6GrR3DbrcCxveKbjZ0h/view?usp=drive_link)
+
+[Lead Screw](https://drive.google.com/file/d/1xgFifHAhNzByHLya4EZVP99iGBfSN8f8/view?usp=drive_link)
+
+[Nut](https://drive.google.com/file/d/1PCONorYVgFMwPnoFBVAn4ZsiIRcxUvXt/view?usp=drive_link)
+
+[Lead Screw Assembly](https://drive.google.com/file/d/1z4NWNmupRmRS37gG9rCgUP_-69lqLKnU/view?usp=drive_link)
 
 
