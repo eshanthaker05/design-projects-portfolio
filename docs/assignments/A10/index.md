@@ -1,139 +1,73 @@
-# A10 – Lead Screw Translating System
+# A11 – Motor Selection Design
 
-## Objective
+## Group : Brendan Spinner, Eshan Thaker, Noel Negron
 
-- Develop a lead-screw–driven crosshead 
+## Motor Selection & Attachments - Brendan
 
-- Ensure accurate, repeatable load application to 2 kN with minimal crosshead deflection and misalignment.
+### Picking the Motor 
 
-- Provide robust specimen gripping, simple calibration provisions (mechanical), and safe, ergonomic operation.
+For the first analysis, I was to calculate for all relevant motor parameters and choose a motor that fits within my calculations. 
 
-## Leadscrew: Brendan
+<img width="3024" height="4032" alt="IMG_3428" src="https://github.com/user-attachments/assets/3bf87b67-931d-490b-871a-c71056cb26d3" />
 
-To find the correct leadscrew, we needed to calculate the minimum diameter, rotational speed, and maximum torque. The calculations for this are shown below. 
+The minimum calculated raising torque per leadscrew was found to be 1.30 N * m. To give each leadscrew some tolerance for any friction influence, I increased the minimum torque per leadscrew to about 1.43 N * m. Based off of these specifications, I chose the NEMA 23 Bipolar Stepper with a 10:1 Planetary Gearbox. The specific parameters of this motor are listed above. The speed-torque curve reveals the full operating margin of the motor at specific RPMs based off of a specific torque value.
 
-<img width="378" height="504" alt="IMG_3366" src="https://github.com/user-attachments/assets/175b7396-303a-4b1c-ab2b-8d467f5ddf40" />
+### Motor Mount Bracket & Housing
 
-<img width="378" height="504" alt="IMG_3367" src="https://github.com/user-attachments/assets/ce14503d-3d4c-45e9-8956-33158416f0ae" />
+For this next analysis section I calculated for dimensions that will be sufficient for the motor selected above.
 
+<img width="3024" height="4032" alt="IMG_3429" src="https://github.com/user-attachments/assets/d0a79118-e02d-44b3-813b-ea6625d186f5" />
 
-## Nut and Flange: Eshan 
+For the bracket, I used a machined 6061-T6 Aluminum U-channel / standoff motor mount bracket bolted directly to the top T-slot frame plate using a 4-hole M6 bolt pattern. The shear force per bolt from motor torque was calculated to be 10.21 N, the bearing stress on the bolt wall is 68.75 MPa, and the minimum thickness was found to be 0.025 mm.
 
-To find the correct nut flange, we analyzed the inner forces and calculated the allowable stress. Listed below are our calculations. 
+### Selecting a Coupler
 
-<img width="379" height="486" alt="IMG_0020" src="https://github.com/user-attachments/assets/947a959d-6d54-4f62-b454-551e11e70bf0" />
+For this next section, I was to design a rigid/clamping hollow cylindrical shaft coupler machined from 6061-T6 Aluminum. 
 
-## Crosshead: Eshan
+<img width="3024" height="4032" alt="IMG_3430" src="https://github.com/user-attachments/assets/42c5ebf6-9f96-40e1-bfaf-16fac69dcd9d" />
 
-To find a crosshead, we first ran a stress analysis and calculated a height value. Next, we ran a deflection analysis and found another height value. The greate value of the two is the true height of the crosshead since it can withstand the necessary forces. Lastly, we created a multiview sketch of the crosshead. 
+Given the calculated values, the minimum outer diameter that would serve as a sufficient is 12.46 mm. However, to make the dimension well within the safety factor range, choosing an outer diameter closer to 25mm would be much safer.
 
-<img width="377" height="488" alt="IMG_0021" src="https://github.com/user-attachments/assets/e4ff455c-7a36-4983-ae98-d107e5b54f26" />
+## Analyze & Design a Frame - Brendan & Eshan
 
-<img width="375" height="473" alt="IMG_0022" src="https://github.com/user-attachments/assets/f2710334-a16d-47e2-a5bd-02eebd2613c9" />
+### Bracket to Affix Standoffs - Brendan
 
-<img width="380" height="490" alt="IMG_0023" src="https://github.com/user-attachments/assets/25e9d038-5bc0-46f0-b1f1-9e79fc4d4b26" />
+This section required me to analyze and construct an optimal bracket that would connect the vertical standoffs of the frame to the very top of the frame.
 
-## Tabulating Costs: Eshan
+<img width="3024" height="4032" alt="IMG_3431" src="https://github.com/user-attachments/assets/41d98505-9bf2-42a2-86e4-7be7d3483450" />
 
-| Item number | Quantity | Name | Cost per Item | Total Cost | Purchase Link |
-|-------|-------|-------|-------|-------|-------|
-|   1    |    2    |Leadscrew    |14.48  |28.96           |[94330A110](https://www.mcmaster.com/94330A110/)|
-|   2    |    2    |Flange Nut   |178.60  |357.20          |[97790A110](https://www.mcmaster.com/97790A110/)|
-|   3    |    4    |Frame        |10.82  |43.28           |[47065T107](https://www.mcmaster.com/47065T107-47065T418/)|
-|   4    |    8    |Mount Bolt   |0.49   |24.47 (50 pack) |[92196A537](https://www.mcmaster.com/92196A537/)|
-|   5    |    8    |Mount Nut    |0.08   |8.28 (100 pack) |[94895A110](https://www.mcmaster.com/94895A110/)|
-|        |         |             |          |$462.19          |                                  |
+The chosen T-slot extruded columns we chose were the 80/20 15-Series McMaster 47065T418. The numerical joint load per column was calculated to be 1000.7 N. The safety factor of the connector was also well within its safety range at about 35 times the failure value.
 
-## Parametric Modeling: Brendan
+### Analyzing the top of the frame - Eshan
 
-### Crosshead design
+For the T-slotted frame, we went with the 5537T102 frame since it has a height and width of 40 mm and has a material strong enough to withstand the loads calculated in the previous sections. We defined the boundaries to be the two opposing sides of the frame, since that’s where it will be attached to the tensile tester. We added two 1000 kN loads onto where the leadscrew attaches and added the moments on either side. 
 
-The only part we had to build ourselves in this project was the crosshead. The crosshead serves as the main bracket that holds the lead screw in place. 
+With the constraints set, we ran an FEA analysis and obtained the Von Mises below. We can see that the highest stress value is 1.87 Mpa and the lowest stress value is 0.24 Mpa. Our material is strong enough to withstand this stress. One possible way we can optimize this design is by increasing the thickness of the outer edges of the imported frame since that’s where the majority of the stress is concentrated. 
 
-I began the design by parametrically modeling some dimensions;
+<img width="522" height="262" alt="Screenshot 2026-11-19 025426" src="https://github.com/user-attachments/assets/c3ec7518-c2f9-4533-8bab-ce97d4c9e3d1" />
 
-<img width="767" height="137" alt="Screenshot 2026-11-11 214932" src="https://github.com/user-attachments/assets/983b197c-b1d4-4ec7-a058-73497944dd22" />
+### Analyzing the vertical components of the frame - Eshan
 
-Utilizing these dimensions, I began the base geometry of the crosshead.
+For the vertical components, we followed the same steps as we did for the top of the frame. In the image below, you can see the Von Mises in which the highest stress value is 40.93 MPa and the lowest stress value is 0.024 MPa. One possible way we can optimize this is by adding further support on the end with the higher load to reduce the overall stress. 
 
-<img width="401" height="216" alt="Screenshot 2026-11-11 215159" src="https://github.com/user-attachments/assets/d2333ccf-12bf-4d33-aa52-65e1307b613c" />
+<img width="520" height="282" alt="Screenshot 2026-11-19 031143" src="https://github.com/user-attachments/assets/3199483e-3eff-4628-b08d-19e4cfe5f739" />
 
-<img width="386" height="466" alt="Screenshot 2026-11-11 215646" src="https://github.com/user-attachments/assets/61fa223c-5ff2-426b-992c-2587c14fdec7" />
 
-I assigned the material of Aluminum 6061-T6 to the crosshead as we calculated for. The two main bore holes seen above are the holes in which the lead screws would go through in our final assembly.
 
-### Editing the Flange Nut
+## Designing Floating Bearing Mount - Noel
 
-After carefully analyzing the flange nut we found, I noticed there were not screw holes found anywhere that will affix the flange nut to the crosshead itself. This meant that I was forced to make some screw holes on the flange nut I downloaded.
+<img width="1179" height="2096" alt="8A695E43-5FBF-46FA-91A7-42DF4508AF4C" src="https://github.com/user-attachments/assets/5cae38e0-7d42-40e6-8e6c-91b95ceaba11" />
 
-<img width="461" height="350" alt="Screenshot 2026-11-11 225401" src="https://github.com/user-attachments/assets/e5cd370c-887a-40dc-8978-abf97b1bcd92" />
+<img width="1179" height="2096" alt="99AD6301-5A93-4CDA-AEFA-FD1B0338CCFB" src="https://github.com/user-attachments/assets/54668c74-e950-4a9e-af9f-59c56eb835a6" />
 
-<img width="408" height="313" alt="Screenshot 2026-11-11 231632" src="https://github.com/user-attachments/assets/83d724ca-37a6-4136-85c9-4ad9cb5f6142" />
+Creating the floating bearing mount was a little confusing at first, as there were little to no instructions on how it was supposed to be done. With the reference of the bearing mount in the appendix, I created a bearing that matched the first frame design as well as I could get it to match, while defining each dimension and justifying why it must be there for the entire assembly. I chose a RC3 fit with a 0.40-0.71 inch range for the major diameter (0.500”) of the ½”-10 ACME lead screw. The material I chose for the floating bearing mount was 6061-T6 aluminum; same as the other frame.
 
-I utilized a 45 degree angle of spacing for the screw holes rather than at a typical 90 degree angle to account for the fact that the flange has flat machined edges on two sides. I implemented a standard to ANSI Inch #10-24 clearance holes.
+## Bills of Material & Labor Costs - Noel
 
-<img width="421" height="342" alt="Screenshot 2026-11-11 234510" src="https://github.com/user-attachments/assets/e6bd9c3a-588e-450b-9147-d0c3522c73d6" />
+<img width="550" height="850" alt="Screenshot 2026-11-19 005201" src="https://github.com/user-attachments/assets/2db74311-f210-4c47-8eea-4432073c1b68" />
 
-### Back to Crosshead Design
+The bill of materials was not very difficult to craft, as there were general sizes of aluminum of each respective part that fits the specified dimensions of each part. The screw and M6 bolts were easy to find as well, and there was an exact T-slot on McMaster that was ideal for our assembly.
 
-I utilized the same tactic with creating the four screw holes on the flange nut as on the crosshead. I drew a construction circle around the already extruded cut, and spaced out the four circles at 90 degree angles from one another, starting at a typical 45 degree angle.
+## Lessons Learned - Noel
 
-<img width="384" height="157" alt="Screenshot 2026-11-11 232954" src="https://github.com/user-attachments/assets/b243c195-9249-482f-bf75-2be319051ae4" />
-
-<img width="371" height="151" alt="Screenshot 2026-11-11 233606" src="https://github.com/user-attachments/assets/3c2a9625-59ba-44eb-a209-13bbd58100e9" />
-
-I mirrored across a center plane so that the holes were identical around both bores.
-
-<img width="547" height="302" alt="Screenshot 2026-11-11 233938" src="https://github.com/user-attachments/assets/d39ff6ef-b539-4454-b193-c8d55bc1c6bb" />
-
-### Importing downloaded files
-
-I went to the attached links and made a separate file for each given part;
-
-<img width="421" height="342" alt="Screenshot 2026-11-11 234510" src="https://github.com/user-attachments/assets/db49250d-2680-4a65-af9d-ac2fe0b952fe" />
-
-<img width="423" height="384" alt="Screenshot 2026-11-11 234527" src="https://github.com/user-attachments/assets/f84925e6-8706-4092-8351-1465ffdcc843" />
-
-<img width="321" height="386" alt="Screenshot 2026-11-11 234544" src="https://github.com/user-attachments/assets/bcff175e-1982-4df1-9a2a-c606882e6a75" />
-
-<img width="331" height="386" alt="Screenshot 2026-11-11 234705" src="https://github.com/user-attachments/assets/182b6e0e-8420-4daf-943b-a7c2b0580b4c" />
-
-<img width="471" height="351" alt="Screenshot 2026-11-11 234715" src="https://github.com/user-attachments/assets/d99ce6ef-d66f-453a-8098-d5b2c864cfce" />
-
-### Assembling pieces together
-
-The final step was to take all the downloaded and designed parts and assemble them into an incomplete lead screw mechanism. I was prompted to use 8 of the screws, one nut, one of the T-frames, our design crosshead, 2 leadscrews, and 2 of the flange nuts.
-
-<img width="422" height="321" alt="Screenshot 2026-11-11 235415" src="https://github.com/user-attachments/assets/dd7215b2-1874-4cd9-bcce-2cc58e89be0f" />
-
-<img width="469" height="298" alt="Screenshot 2026-11-11 235814" src="https://github.com/user-attachments/assets/a038e563-393b-4cf8-9ff8-74303f6dc903" />
-
-I then started to mate the parts together similar to the example image:
-
-<img width="464" height="393" alt="Screenshot 2026-11-12 000633" src="https://github.com/user-attachments/assets/38a7268e-ace6-4be4-bb79-a9af3b3befbe" />
-
-<img width="456" height="379" alt="Screenshot 2026-11-12 001127" src="https://github.com/user-attachments/assets/f3bfb14e-eb75-4c94-a7f6-d588c3c419c3" />
-
-<img width="351" height="369" alt="Screenshot 2026-11-12 002423" src="https://github.com/user-attachments/assets/81d62873-6302-40e8-9f46-dd32d81af730" />
-
-<img width="400" height="370" alt="Screenshot 2026-11-12 004429" src="https://github.com/user-attachments/assets/4e9af0ab-4a4b-4387-9765-bae0752583e6" />
-
-This lead screw setup is incomplete as it is missing some key components for a practical application. However, given the setup and parts we were instructed to use, this is the best assembly I could arrange. For a safety check, I validated that there were no interfering parts within my assembly:
-
-<img width="251" height="408" alt="Screenshot 2026-11-12 004636" src="https://github.com/user-attachments/assets/09489e8b-7f01-4979-8aa0-8178b46ed3e8" />
-
-## Lessons Learned 
-
-In this assignment, we learned how to use multiple analysis methods to find an appropriate value, such as when we found the height of the crosshead. We also learned how to convert linear speed into rotational speed, and then use that to find the torque of an object.
-
-[Frame](https://drive.google.com/file/d/14XVI5ntT0tfzCydKs530lmVxSxqJgEG4/view?usp=drive_link)
-
-[Head Screw](https://drive.google.com/file/d/1vg9_WwzWNuM6-6GrR3DbrcCxveKbjZ0h/view?usp=drive_link)
-
-[Lead Screw](https://drive.google.com/file/d/1xgFifHAhNzByHLya4EZVP99iGBfSN8f8/view?usp=drive_link)
-
-[Nut](https://drive.google.com/file/d/1PCONorYVgFMwPnoFBVAn4ZsiIRcxUvXt/view?usp=drive_link)
-
-[Lead Screw Assembly](https://drive.google.com/file/d/1z4NWNmupRmRS37gG9rCgUP_-69lqLKnU/view?usp=drive_link)
-
-
+Overall, this two-part assignment taught us the importance of tolerances, materials, and fits throughout the different phases of the assignments. Finding the right lead screw for our motor, and identifying the specific dimensions of the mounts, and analysing each part emphasized the importance of accuracy and precision when it comes to an assembly, as if one part is off, then the entire assembly will not fit together. Throughout this assignment, we prioritized teamwork and communication as we delegated different parts of each assignment to one another and trusted them to do it right and be responsible for their own work. This assignment took around 10 hours between all of us to complete.
