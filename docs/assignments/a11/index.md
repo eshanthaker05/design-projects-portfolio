@@ -71,15 +71,3 @@ The bill of materials was not very difficult to craft, as there were general siz
 ## Lessons Learned - Noel
 
 Overall, this two-part assignment taught us the importance of tolerances, materials, and fits throughout the different phases of the assignments. Finding the right lead screw for our motor, and identifying the specific dimensions of the mounts, and analysing each part emphasized the importance of accuracy and precision when it comes to an assembly, as if one part is off, then the entire assembly will not fit together. Throughout this assignment, we prioritized teamwork and communication as we delegated different parts of each assignment to one another and trusted them to do it right and be responsible for their own work. This assignment took around 10 hours between all of us to complete.
-# A11 – Motor Selection
-
-## Objective
-
-
-## Analyze
-
-
-## Decide
-_Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
-
-## Communicate
